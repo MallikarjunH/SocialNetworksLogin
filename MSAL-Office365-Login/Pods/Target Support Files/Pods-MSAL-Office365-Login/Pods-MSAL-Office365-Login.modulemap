@@ -1,0 +1,6 @@
+framework module Pods_MSAL_Office365_Login {
+  umbrella header "Pods-MSAL-Office365-Login-umbrella.h"
+
+  export *
+  module * { export * }
+}

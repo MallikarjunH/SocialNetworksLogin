@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C15B3DF526AFC920003A8329 /* IntegrationGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15B3DF426AFC920003A8329 /* IntegrationGuide.swift */; };
+		C189904126A5712D000EDC2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C189904026A5712D000EDC2B /* AppDelegate.swift */; };
+		C189904526A5712D000EDC2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C189904426A5712D000EDC2B /* ViewController.swift */; };
+		C189904826A5712D000EDC2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C189904626A5712D000EDC2B /* Main.storyboard */; };
+		C189904A26A57130000EDC2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C189904926A57130000EDC2B /* Assets.xcassets */; };
+		C189904D26A57130000EDC2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C189904B26A57130000EDC2B /* LaunchScreen.storyboard */; };
+		C1D9B39C6B192DD68E004B6D /* Pods_MSAL_Office365_Login.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1BE3F8AAB9185EE6DACF9D3 /* Pods_MSAL_Office365_Login.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C82EE400B341711BFB63ADB /* Pods-MSAL-Office365-Login.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSAL-Office365-Login.debug.xcconfig"; path = "Target Support Files/Pods-MSAL-Office365-Login/Pods-MSAL-Office365-Login.debug.xcconfig"; sourceTree = "<group>"; };
+		A1BE3F8AAB9185EE6DACF9D3 /* Pods_MSAL_Office365_Login.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MSAL_Office365_Login.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C15B3DF426AFC920003A8329 /* IntegrationGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegrationGuide.swift; sourceTree = "<group>"; };
+		C189903D26A5712D000EDC2B /* MSALogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSALogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C189904026A5712D000EDC2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C189904426A5712D000EDC2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C189904726A5712D000EDC2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C189904926A57130000EDC2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C189904C26A57130000EDC2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C189904E26A57130000EDC2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C189906A26A585DF000EDC2B /* MSAL-Office365-Login.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = "MSAL-Office365-Login.entitlements"; sourceTree = "<group>"; };
+		D4FD6D698907B57F262F81C4 /* Pods-MSAL-Office365-Login.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSAL-Office365-Login.release.xcconfig"; path = "Target Support Files/Pods-MSAL-Office365-Login/Pods-MSAL-Office365-Login.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C189903A26A5712D000EDC2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1D9B39C6B192DD68E004B6D /* Pods_MSAL_Office365_Login.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13782CF0D03B558CF2D890A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1BE3F8AAB9185EE6DACF9D3 /* Pods_MSAL_Office365_Login.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C189903426A5712D000EDC2B = {
+			isa = PBXGroup;
+			children = (
+				C189903F26A5712D000EDC2B /* MSAL-Office365-Login */,
+				C189903E26A5712D000EDC2B /* Products */,
+				D5385A07FBC25F519F7ABC3D /* Pods */,
+				13782CF0D03B558CF2D890A3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C189903E26A5712D000EDC2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C189903D26A5712D000EDC2B /* MSALogin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C189903F26A5712D000EDC2B /* MSAL-Office365-Login */ = {
+			isa = PBXGroup;
+			children = (
+				C189906A26A585DF000EDC2B /* MSAL-Office365-Login.entitlements */,
+				C15B3DF426AFC920003A8329 /* IntegrationGuide.swift */,
+				C189904026A5712D000EDC2B /* AppDelegate.swift */,
+				C189904426A5712D000EDC2B /* ViewController.swift */,
+				C189904626A5712D000EDC2B /* Main.storyboard */,
+				C189904926A57130000EDC2B /* Assets.xcassets */,
+				C189904B26A57130000EDC2B /* LaunchScreen.storyboard */,
+				C189904E26A57130000EDC2B /* Info.plist */,
+			);
+			path = "MSAL-Office365-Login";
+			sourceTree = "<group>";
+		};
+		D5385A07FBC25F519F7ABC3D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C82EE400B341711BFB63ADB /* Pods-MSAL-Office365-Login.debug.xcconfig */,
+				D4FD6D698907B57F262F81C4 /* Pods-MSAL-Office365-Login.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C189903C26A5712D000EDC2B /* MSALogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C189905126A57130000EDC2B /* Build configuration list for PBXNativeTarget "MSALogin" */;
+			buildPhases = (
+				E2A3540C5B19E9AFB98BDBF4 /* [CP] Check Pods Manifest.lock */,
+				C189903926A5712D000EDC2B /* Sources */,
+				C189903A26A5712D000EDC2B /* Frameworks */,
+				C189903B26A5712D000EDC2B /* Resources */,
+				ECFC6FADD5C6F232AC93EEC5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MSALogin;
+			productName = "MSAL-Office365-Login";
+			productReference = C189903D26A5712D000EDC2B /* MSALogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C189903526A5712D000EDC2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					C189903C26A5712D000EDC2B = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = C189903826A5712D000EDC2B /* Build configuration list for PBXProject "MSALogin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C189903426A5712D000EDC2B;
+			productRefGroup = C189903E26A5712D000EDC2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C189903C26A5712D000EDC2B /* MSALogin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C189903B26A5712D000EDC2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C189904D26A57130000EDC2B /* LaunchScreen.storyboard in Resources */,
+				C189904A26A57130000EDC2B /* Assets.xcassets in Resources */,
+				C189904826A5712D000EDC2B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E2A3540C5B19E9AFB98BDBF4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MSAL-Office365-Login-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECFC6FADD5C6F232AC93EEC5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MSAL-Office365-Login/Pods-MSAL-Office365-Login-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MSAL-Office365-Login/Pods-MSAL-Office365-Login-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MSAL-Office365-Login/Pods-MSAL-Office365-Login-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C189903926A5712D000EDC2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C189904526A5712D000EDC2B /* ViewController.swift in Sources */,
+				C15B3DF526AFC920003A8329 /* IntegrationGuide.swift in Sources */,
+				C189904126A5712D000EDC2B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C189904626A5712D000EDC2B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C189904726A5712D000EDC2B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C189904B26A57130000EDC2B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C189904C26A57130000EDC2B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C189904F26A57130000EDC2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C189905026A57130000EDC2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C189905226A57130000EDC2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C82EE400B341711BFB63ADB /* Pods-MSAL-Office365-Login.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "MSAL-Office365-Login/MSAL-Office365-Login.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7Q5CZS8HV4;
+				INFOPLIST_FILE = "MSAL-Office365-Login/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.identitysample.MSALiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C189905326A57130000EDC2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4FD6D698907B57F262F81C4 /* Pods-MSAL-Office365-Login.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "MSAL-Office365-Login/MSAL-Office365-Login.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7Q5CZS8HV4;
+				INFOPLIST_FILE = "MSAL-Office365-Login/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.identitysample.MSALiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C189903826A5712D000EDC2B /* Build configuration list for PBXProject "MSALogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C189904F26A57130000EDC2B /* Debug */,
+				C189905026A57130000EDC2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C189905126A57130000EDC2B /* Build configuration list for PBXNativeTarget "MSALogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C189905226A57130000EDC2B /* Debug */,
+				C189905326A57130000EDC2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C189903526A5712D000EDC2B /* Project object */;
+}
