@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Google_SignIn" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="googleSignIn" translatesAutoresizingMaskIntoConstraints="NO" id="S3H-g4-Ngz">
+                                <rect key="frame" x="39" y="147" width="313" height="46"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="46" id="0vA-Nf-P5A"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gQU-p7-DlM">
+                                <rect key="frame" x="292" y="47" width="78" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="78" id="7wr-4x-7OH"/>
+                                    <constraint firstAttribute="height" constant="35" id="ZfU-sY-f14"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Logout"/>
+                                <connections>
+                                    <action selector="logoutButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U4u-3h-443"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Eoc-6p-ysB">
+                                <rect key="frame" x="120" y="240" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="KYT-om-1ha"/>
+                                    <constraint firstAttribute="height" constant="150" id="vou-Bm-jtG"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TdC-5w-nvn">
+                                <rect key="frame" x="50" y="428" width="320" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="kQk-go-pGA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gDh-Sb-yof">
+                                <rect key="frame" x="50" y="474" width="320" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="UWr-ph-hcu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="gDh-Sb-yof" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="EbH-hU-Oxr"/>
+                            <constraint firstItem="S3H-g4-Ngz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="39" id="FAJ-L5-fug"/>
+                            <constraint firstItem="Eoc-6p-ysB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TlZ-cX-uYR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gDh-Sb-yof" secondAttribute="trailing" constant="20" id="YAK-d6-SR5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="S3H-g4-Ngz" secondAttribute="trailing" constant="38" id="bMD-Ea-34D"/>
+                            <constraint firstItem="gDh-Sb-yof" firstAttribute="top" secondItem="TdC-5w-nvn" secondAttribute="bottom" constant="25" id="cs2-2V-GKe"/>
+                            <constraint firstItem="TdC-5w-nvn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="g13-sf-w8s"/>
+                            <constraint firstItem="TdC-5w-nvn" firstAttribute="top" secondItem="Eoc-6p-ysB" secondAttribute="bottom" constant="38" id="jzU-mo-VSZ"/>
+                            <constraint firstItem="S3H-g4-Ngz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="kOI-K0-KhW"/>
+                            <constraint firstItem="Eoc-6p-ysB" firstAttribute="top" secondItem="S3H-g4-Ngz" secondAttribute="bottom" constant="47" id="l41-ua-zfV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="TdC-5w-nvn" secondAttribute="trailing" constant="20" id="mhi-2B-kHp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gQU-p7-DlM" secondAttribute="trailing" constant="20" id="n0O-Ct-JiI"/>
+                            <constraint firstItem="gQU-p7-DlM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="wXM-P7-oBD"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="logoutButtonOutlet" destination="gQU-p7-DlM" id="eVg-J6-duN"/>
+                        <outlet property="signInGoogleImg" destination="S3H-g4-Ngz" id="U12-Lw-IaI"/>
+                        <outlet property="userEmailLabel" destination="gDh-Sb-yof" id="a9b-8b-5KV"/>
+                        <outlet property="userNameLabel" destination="TdC-5w-nvn" id="byx-vN-cnL"/>
+                        <outlet property="userProfileImage" destination="Eoc-6p-ysB" id="R9j-su-fLQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="21.538461538461537" y="3.5545023696682461"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="googleSignIn" width="288.5" height="62"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
